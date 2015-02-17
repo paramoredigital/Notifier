@@ -1,0 +1,20 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.hidden({
+    name: 'defaultNotifier',
+    value: 'airbrake'
+}) }}
+
+{{ forms.textField({
+    label: "Airbrake API Endpoint"|t,
+    id: 'airbrakeApiEndpoint',
+    name: 'airbrakeApiEndpoint',
+    value: settings.airbrakeApiEndpoint
+}) }}
+
+{{ forms.textField({
+    label: "Airbrake API Key"|t,
+    id: 'airbrakeApiKey',
+    name: 'airbrakeApiKey',
+    value: settings.airbrakeApiKey
+}) }}

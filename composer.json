@@ -1,0 +1,19 @@
+{
+    "authors": [
+        {
+            "name": "Ben Wilkins",
+            "email": "bwilkins@paramoredigital.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "controllers",
+            "services",
+            "variables",
+            "vendor"
+        ]
+    },
+    "require": {
+        "paramoredigital/codebase-exceptions-php": "1.0.1"
+    }
+}
