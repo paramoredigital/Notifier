@@ -1,6 +1,6 @@
 # Notifier
 
-Notifier for Craft is a plugin that provides Airbrake notifications to Codebase and/or Airbrake.io.
+Notifier for Craft is a plugin that provides Airbrake notifications to <a href="http://codebasehq.com/" target="_blank">Codebase</a> and/or <a href="http://airbrake.io/" target="_blank">Airbrake.io</a>.
 
 ## Installation
 
