@@ -5,9 +5,7 @@ Notifier for Craft is a plugin that provides Airbrake notifications to <a href="
 ## Installation
 
 1. Copy the included `notifier` directory into `craft/plugins`.
-2. Use Composer to install the required libraries:
-	curl -s http://getcomposer.org/installer | php
-	php composer.phar install
+2. Use Composer to install the required libraries: `php composer.phar install`
 3. Navigate to the **Plugins** settings in the CP and install Notifier.
 4. Add the URL to the Codebase or Airbrake.io notifier and the necessary API key.
 
