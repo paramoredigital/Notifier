@@ -42,6 +42,11 @@ class NotifierPlugin extends BasePlugin
     {
         return craft()->templates->render('notifier/settings', array('settings' => $this->getSettings()));
     }
+
+    public function sendToNotifier($message)
+    {
+        craft()->notifier->sendString($message);
+    }
 }
 
 /* End of NotifierPlugin.php */ 
